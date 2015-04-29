@@ -1,0 +1,19 @@
+<style type="text/css">
+
+.parent {
+	margin: 8% 35%;
+	display: block;
+}
+
+.block {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	display: block;
+}
+
+.label {
+    font-size: 280%;
+    padding-left: 5px;
+}
+</style>
