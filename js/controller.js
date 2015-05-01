@@ -35,6 +35,16 @@ $j(document).ready(function(){
 		}
 	});
 
+	$j('#howto').click(function(){
+		var message = 'The grid will populate with numbers 1-5 or 1-10 scattered depending on the level you chose.\n\n'+
+						'You will get limited time to memorize their positions in the grid\n\n'+
+						'Once time runs out the numbers will disappear.\n\n'+
+						'You have to click the grid where each number was in ascending order.\n\n'+
+						'So you will click the cell where 1 was, then cell where 2 was and so on.';
+
+		alert(message);
+	});
+
 });
 
 function start() {
