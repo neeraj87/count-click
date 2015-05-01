@@ -3,17 +3,26 @@
 .parent {
 	margin: 8% 35%;
 	display: block;
+	width: 600px;
+	position:absolute;
+	left:50%;
+	top:50%;
 }
 
 .block {
 	height: 50px;
 	width: 50px;
-	border: 1px solid black;
+	//border: 1px solid black;
 	display: block;
+	background-color: #c0c0c0;
 }
 
 .label {
     font-size: 280%;
     padding-left: 5px;
+}
+
+#grid {
+	width: 100%;
 }
 </style>
