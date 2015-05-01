@@ -21,6 +21,12 @@
 	width: 100%;
 }
 
+#timer {
+	color: #32cd32;
+    font-family: Impact, fantasy;
+    font-size: 200%;
+}
+
 .radioTable {
 	margin-left: 35%;
 	margin-bottom: 15px;
