@@ -52,13 +52,13 @@ function start() {
 	clickCount = 0;
 	if(difficulty == 'easy') {
 		totalNumbers = 5;
-		time = 10000;
+		time = 6000;
 	} else if(difficulty == 'medium') {
 		totalNumbers = 10;
 		time = 8000;
 	} else {
 		totalNumbers = 10;
-		time = 6000;
+		time = 10000;
 	}
 
 	$j('#optionsDiv').css('display', 'none');
