@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="parent" style="margin:8% 35%;">
+    <div class="parent" style="margin:8% 30%;">
         <table id="grid">
             <tr class="row">
                 <td><div class="block"><label id="1" class="label"></label></div></td>
@@ -62,7 +62,26 @@
                 <td><div class="block"><label id="40" class="label"></label></div></td>
             </tr>
         </table>
+        <span id="timer" class="timerSpan"></span>
     </div>
-    <!--<button id="start">Start</button>-->
+    <div id="optionsDiv" style="margin:8% 30%;">
+        <table class="radioTable">
+            <tr>
+                <td>
+                    <input type="radio" name="radiog_dark" id="easy" class="css-checkbox" checked="checked"/>
+                    <label for="easy" class="css-label radGroup2">Easy</label>
+                </td>
+                <td>
+                    <input type="radio" name="radiog_dark" id="medium" class="css-checkbox"/>
+                    <label for="medium" class="css-label radGroup2">Medium</label>
+                </td>
+                <td>
+                    <input type="radio" name="radiog_dark" id="hard" class="css-checkbox"/>
+                    <label for="hard" class="css-label radGroup2">Hard</label>
+                </td>
+            </tr>
+        </table>
+        <button class="startBtn">START</button>
+    </div>
 </body>
 </html>

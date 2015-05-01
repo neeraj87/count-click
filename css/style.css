@@ -8,12 +8,80 @@
 .block {
 	height: 50px;
 	width: 50px;
-	border: 1px solid black;
 	display: block;
+	background-color: #c0c0c0;
 }
 
 .label {
     font-size: 280%;
     padding-left: 5px;
 }
+
+#grid {
+	width: 100%;
+}
+
+#timer {
+	color: #32cd32;
+    font-family: Impact, fantasy;
+    font-size: 200%;
+}
+
+.radioTable {
+	margin-left: 35%;
+	margin-bottom: 15px;
+    top: 50%;
+}
+
+input[type=radio].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:23px;
+	height:19px; 
+	display:inline-block;
+	line-height:19px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:19px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -19px;
+}
+label.css-label {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_58e843b34cccfde5d11c23ebd0848df9.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.startBtn {
+    margin-left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    font-size: 200%;
+    font-family: Impact, fantasy;
+    text-decoration: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer;
+}
+
 </style>
