@@ -1,10 +1,29 @@
 var $j = jQuery.noConflict(true);
 var clickCount = 0;
 var gameStart = false;
+var difficulty = 'easy';
 var divBackgroundColorsArray = ["#ff8f85", "#2dcc70", "#b1a1c6", "#ff0059", "#a500ff", "#ec26e6", "#f28e61", "#f0f261", "#61e5f2", "#4ff8bc", "#f8eb4f", "#f54ff8", "#c9f84f", "#f8cd4f", "#f8a14f"];
 
-$j(document).ready(function(){	
-	start();
+$j(document).ready(function(){
+
+	$j('.startBtn').click(function(){
+		alert(difficulty);
+		//start();
+	});
+
+	$j('#easy').click(function(){
+		difficulty = 'easy';
+	});
+
+
+	$j('#medium').click(function(){
+		difficulty = 'medium';
+	});
+
+
+	$j('#hard').click(function(){
+		difficulty = 'hard';
+	});
 
 	$j('.row td').click(function(event){
 		var innerVal = $j(this).children('.block').children('.label').text();
